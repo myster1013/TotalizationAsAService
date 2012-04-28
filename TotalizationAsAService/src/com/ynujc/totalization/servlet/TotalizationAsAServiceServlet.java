@@ -1,4 +1,4 @@
-package com.ynujc;
+package com.ynujc.totalization.servlet;
 
 import java.io.IOException;
 import javax.servlet.http.*;

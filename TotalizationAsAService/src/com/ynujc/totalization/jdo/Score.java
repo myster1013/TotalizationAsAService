@@ -1,4 +1,4 @@
-package com.ynujc.totalozation.jdo;
+package com.ynujc.totalization.jdo;
 
 import java.io.Serializable;
 

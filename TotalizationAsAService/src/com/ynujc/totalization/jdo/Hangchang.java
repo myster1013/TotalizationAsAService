@@ -1,8 +1,9 @@
-package com.ynujc.totalozation.jdo;
+package com.ynujc.totalization.jdo;
 
 import java.io.Serializable;
 import java.util.List;
 
+import javax.jdo.annotations.Column;
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.PersistenceCapable;
@@ -19,6 +20,7 @@ public class Hangchang implements Serializable{
 	
 	@Persistent(mappedBy="hangchang")
 	@Element(dependent="true")
+	@Column(length=4)
 	private List<Score> scores;
 
 	public Long getHangchangId() {

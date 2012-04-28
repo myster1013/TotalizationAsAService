@@ -1,4 +1,4 @@
-package com.ynujc.totalozation.jdo;
+package com.ynujc.totalization.jdo;
 
 import java.io.Serializable;
 
@@ -22,6 +22,15 @@ public class Jansi implements Serializable {
 
 	@Persistent
 	private String jansiFamilyNameKana;
+	
+	@Persistent
+	private String jansiNickName;
+
+	@Persistent
+	private Integer year;
+	
+	@Persistent
+	private String comment;
 
 	public Jansi(Key jansiId){
 		this.jansiId = jansiId;
@@ -49,5 +58,29 @@ public class Jansi implements Serializable {
 
 	public String getJansiFamilyNameKana() {
 		return jansiFamilyNameKana;
+	}
+	
+	public String getJansiNickName() {
+		return jansiNickName;
+	}
+
+	public void setJansiNickName(String jansiNickName) {
+		this.jansiNickName = jansiNickName;
+	}
+
+	public Integer getYear() {
+		return year;
+	}
+
+	public void setYear(Integer year) {
+		this.year = year;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
 	}
 }
