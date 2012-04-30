@@ -1,4 +1,4 @@
-package com.ynujc.totalozation.util;
+package com.ynujc.totalization.util;
 
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManagerFactory;

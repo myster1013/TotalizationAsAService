@@ -1,7 +1,6 @@
 package com.ynujc.totalization.servlet;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.jdo.PersistenceManager;
 import javax.servlet.ServletException;
@@ -10,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.ynujc.totalization.jdo.Jansi;
-import com.ynujc.totalozation.util.PMF;
+import com.ynujc.totalization.util.PMF;
 
 public class ListMemberServlet extends HttpServlet {
 	/**
